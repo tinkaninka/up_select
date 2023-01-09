@@ -21,7 +21,6 @@ jobs:
       - name: Compile
         run: flutter pub get
       - name: Build
-        working-directory: ./example
         run: flutter build web --release
 
 
